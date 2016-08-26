@@ -1,0 +1,34 @@
+<include file="Public:header" />
+ <div class="container">
+
+      <div class="blog-header">
+        <p class="lead blog-description">又一个漂亮的博客</p>
+      </div>
+
+      <div class="row">
+
+        <div class="col-sm-8 blog-main">
+        
+         <foreach name='list' item='v'>
+          <div class="blog-post">
+            <h3 class="blog-post-title"><a href="{:U('Index/article','aid='.$v['aid'])}">{$v.atitle}</a></h3>
+            <p class="blog-post-meta">{$v.atime|date='Y-m-d',###} by {$v.name} @ <a href="{:U('Index/category','cid='.$v['acid'])}">{$v.cname}</a></p>
+            <p>{$v.acontent|html_entity_decode|mb_substr=###,0,200,'utf-8'}
+							……</p>
+          </div><!-- /.blog-post -->
+		</foreach>
+		
+
+			<nav>
+  <ul class="pagination">
+            	 {$page}
+            </ul>
+          </nav>
+        </div><!-- /.blog-main -->
+
+		<include file="Public:aside" />
+
+      </div><!-- /.row -->
+
+    </div><!-- /.container -->
+	<include file="Public:footer" />

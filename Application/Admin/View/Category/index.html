@@ -1,0 +1,79 @@
+<include file="Public:header" />
+<div class="row">
+	<div class="col-xs-12">
+		<div class="box">
+			<div class="box-header">
+				<h3 class="box-title">文章分类列表</h3>
+
+
+			</div>
+			<!-- /.box-header -->
+			<div class="box-body table-responsive no-padding">
+				<table class="table table-hover">
+					<tbody>
+						<tr>
+							<th>分类ID</th>
+							<th>分类名称</th>
+							<th>创建日期</th>
+							<th>排序</th>
+							<th>分类描述</th>
+							<th>操作</th>
+						</tr>
+						<foreach name="list" item="k">          
+						<tr>
+							<td>{$k.cid}</td>
+							<td>{$k.cname}</td>
+							<td>{$k.ctime|date='Y-m-d',###}</td>
+							<td><span class="label label-success">{$k.corder}</span></td>
+							<td>{$k.cdesc}</td>
+							<td><a href="#" data-toggle="modal" data-target="#myModal{$k.cid}">删除</a>| <a href="#" onclick="edit({$k.cid})">编辑</a></td>
+						</tr>
+						<div class="modal" id="myModal{$k.cid}">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal"
+											aria-label="Close">
+											<span aria-hidden="true">×</span>
+										</button>
+										<h4 class="modal-title">
+											你确定要删除分类 《<b>{$k.cneme}</b>》 吗？
+										</h4>
+									</div>
+									<div class="modal-body">
+										<p>分类详情：{$k.cdesc|html_entity_decode}</p>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-default pull-left"
+											data-dismiss="modal">取消</button>
+										<button type="button" class="btn btn-danger"
+											onclick="del({$k.cid})">确定删除</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						</foreach>
+					</tbody>
+				</table>
+				
+			</div>
+			<!-- /.box-body -->
+			<div class="box-footer clearfix">
+				<ul class="pagination pagination-sm no-margin pull-right">
+					<li>{$page}</li>
+				</ul>
+			</div>
+		</div>
+		<!-- /.box -->
+	</div>
+</div>
+	<script>
+
+	function del(id) {
+		location.href = '<?php echo U("del")?>?id='+id;
+	}
+	function edit(id){
+		location.href = '<?php echo U("edit")?>?id='+id;
+	}
+	</script>
+<include file="Public:footer" />

@@ -1,0 +1,1204 @@
+[ 2016-08-19T23:50:17+08:00 ] 182.18.73.136 /index.php/Admin/user/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-08-19T23:50:19+08:00 ] 182.18.73.136 /index.php/Admin/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000236s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000045s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002526s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002542s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000222s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000234s ]
+
+[ 2016-08-19T23:50:21+08:00 ] 182.18.73.136 /index.php/Admin/Admin/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000321s ]
+ERR: 无法加载控制器:Admin
+
+[ 2016-08-19T23:50:26+08:00 ] 182.18.73.136 /index.php/Admin/user/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000216s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000038s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002356s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002369s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000087s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000213s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000225s ]
+
+[ 2016-08-19T23:50:27+08:00 ] 182.18.73.136 /index.php/Admin/Admin/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+ERR: 无法加载控制器:Admin
+
+[ 2016-08-19T23:50:37+08:00 ] 182.18.73.136 /index.php/Admin/user/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000217s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-08-19T23:51:38+08:00 ] 182.18.73.136 /index.php/Admin/user/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000213s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000047s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002886s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002901s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000086s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000221s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000234s ]
+
+[ 2016-08-19T23:51:38+08:00 ] 182.18.73.136 /index.php/Admin/User/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000292s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000322s ]
+
+[ 2016-08-19T23:51:40+08:00 ] 182.18.73.136 /index.php/Admin/user/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000213s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-08-19T23:52:18+08:00 ] 182.18.73.136 /index.php/Admin/user/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000211s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000042s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002437s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002451s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000081s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000215s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000227s ]
+
+[ 2016-08-19T23:52:19+08:00 ] 182.18.73.136 /index.php/Admin/User/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000291s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000320s ]
+
+[ 2016-08-19T23:52:21+08:00 ] 182.18.73.136 /index.php/Admin/user/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000213s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-08-19T23:52:22+08:00 ] 182.18.73.136 /index.php/Admin/User/verify/id.html/0.13244944573145845
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000267s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000292s ]
+
+[ 2016-08-19T23:52:23+08:00 ] 182.18.73.136 /index.php/Admin/User/verify/id.html/0.06856079720374963
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000327s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000350s ]
+
+[ 2016-08-19T23:52:24+08:00 ] 182.18.73.136 /index.php/Admin/User/verify/id.html/0.43022866003749494
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000220s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000237s ]
+
+[ 2016-08-19T23:52:25+08:00 ] 182.18.73.136 /index.php/Admin/User/verify/id.html/0.7286535465334558
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000295s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000319s ]
+
+[ 2016-08-19T23:52:26+08:00 ] 182.18.73.136 /index.php/Admin/User/verify/id.html/0.7231987926125756
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000232s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000251s ]
+
+[ 2016-08-19T23:52:27+08:00 ] 182.18.73.136 /index.php/Admin/User/verify/id.html/0.9429510659966334
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000219s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000243s ]
+
+[ 2016-08-19T23:52:29+08:00 ] 182.18.73.136 /index.php/Admin/User/doLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000220s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000017s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000038s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002654s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002668s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000083s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000093s ]
+
+[ 2016-08-19T23:52:29+08:00 ] 182.18.73.136 /index.php/Admin/User/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000212s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-08-19T23:52:31+08:00 ] 182.18.73.136 /index.php/Admin/user/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000208s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-08-19T23:52:37+08:00 ] 182.18.73.136 /index.php/Admin/User/doLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000327s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000022s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000039s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002542s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002559s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000083s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000092s ]
+
+[ 2016-08-19T23:52:37+08:00 ] 182.18.73.136 /index.php/Admin/User/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000341s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-08-19T23:52:38+08:00 ] 182.18.73.136 /index.php/Admin/user/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000208s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-08-19T23:52:40+08:00 ] 182.18.73.136 /index.php/Admin/User/verify/id.html/0.6239990568787799
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000237s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000258s ]
+
+[ 2016-08-19T23:52:46+08:00 ] 182.18.73.136 /index.php/Admin/User/doLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate /home/u325084755/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT `id`,`name`,`password`,`image` FROM `admin` WHERE `name` = 'james' AND `password` = '96e79218965eb72c92a549dd5a330112' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000018s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000036s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.702683s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.702716s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000148s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000166s ]
+
+[ 2016-08-19T23:52:47+08:00 ] 182.18.73.136 /index.php/Admin/User/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000213s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-08-19T23:52:48+08:00 ] 182.18.73.136 /index.php/Admin/user/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000220s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-08-19T23:52:54+08:00 ] 182.18.73.136 /index.php/Admin/User/verify/id.html/0.47225766101193933
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000224s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000243s ]
+
+[ 2016-08-19T23:52:56+08:00 ] 182.18.73.136 /index.php/Admin/User/verify/id.html/0.8167065292113334
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000279s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000306s ]
+
+[ 2016-08-19T23:53:04+08:00 ] 182.18.73.136 /index.php/Admin/User/verify/id.html/0.8013916213835304
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000217s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000234s ]
+
+[ 2016-08-19T23:53:15+08:00 ] 182.18.73.136 /index.php/Admin/User/doLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000210s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: validate /home/u325084755/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT `id`,`name`,`password`,`image` FROM `admin` WHERE `name` = 'taoxin' AND `password` = '96e79218965eb72c92a549dd5a330112' LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `admin` SET `name`='taoxin',`password`='96e79218965eb72c92a549dd5a330112',`datetime`='1471621995' WHERE ( id=1 ) [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000018s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000033s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018353s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018397s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000162s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000444s ]
+
+[ 2016-08-19T23:53:15+08:00 ] 182.18.73.136 /index.php/Admin/User/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000223s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-08-19T23:53:17+08:00 ] 182.18.73.136 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000219s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( rstatus=0 ) LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [2] disk_free_space(): No such file or directory /home/u325084755/public_html/Application/Admin/Controller/IndexController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 256 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 257 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 262 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 265 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 318 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 321 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.076744s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.076762s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000304s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000321s ]
+
+[ 2016-08-19T23:53:20+08:00 ] 182.18.73.136 /index.php/Admin/Index/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( rstatus=0 ) LIMIT 1   [ RunTime:0.0002s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-08-19T23:53:28+08:00 ] 182.18.73.136 /index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000215s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( rstatus=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0011s ]
+SQL: SELECT `aid`,`atitle`,`acontent`,`acid`,`cname`,`atime`,`aorder` FROM `article` left join category ON category.cid = article.acid  ORDER BY aorder asc ,atime desc LIMIT 0,20   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 256 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 257 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 262 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 265 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 318 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 321 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007589s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007604s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000249s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000264s ]
+
+[ 2016-08-19T23:53:30+08:00 ] 182.18.73.136 /index.php/Admin/Article/index.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000349s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( rstatus=0 ) LIMIT 1   [ RunTime:0.0002s ]
+ERR: 非法操作:index.js.map
+
+[ 2016-08-19T23:53:52+08:00 ] 182.18.73.136 /index.php/Admin/Article/edit.html?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000226s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( rstatus=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `article` WHERE ( aid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/761055de2f430bef08441163fbb8bda7.php 第 256 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/761055de2f430bef08441163fbb8bda7.php 第 257 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/761055de2f430bef08441163fbb8bda7.php 第 262 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/761055de2f430bef08441163fbb8bda7.php 第 265 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/761055de2f430bef08441163fbb8bda7.php 第 318 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/761055de2f430bef08441163fbb8bda7.php 第 321 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007291s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007305s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000090s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000241s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000255s ]
+
+[ 2016-08-19T23:54:49+08:00 ] 182.18.73.136 /index.php/Admin/Article/doEdit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000208s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( rstatus=0 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: validate /home/u325084755/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /home/u325084755/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `article` SET `atitle`='session_start',`acid`='1',`aorder`='1',`acontent`='&lt;p&gt;
+	&lt;p&gt;
+		&lt;br /&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		session_start
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;br /&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		(PHP 4, PHP 5, PHP 7)
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;br /&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		session_start — 启动新会话或者重用现有会话
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;br /&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;br /&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		说明
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;br /&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		bool session_start ([ array $options = [] ] )
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;br /&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		session_start() 会创建新会话或者重用现有会话。 如果通过 GET 或者 POST 方式，或者使用 cookie 提交了会话 ID， 则会重用现有会话。
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;br /&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		当会话自动开始或者通过 session_start() 手动开始的时候， PHP 内部会调用会话管理器的 open 和 read 回调函数。 会话管理器可能是 PHP 默认的， 也可能是扩展提供的（SQLite 或者 Memcached 扩展）， 也可能是通过 session_set_save_handler() 设定的用户自定义会话管理器。 通过 read 回调函数返回的现有会话数据（使用特殊的序列化格式存储）， PHP 会自动反序列化数据并且填充 $_SESSION 超级全局变量。
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;br /&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		要想使用命名会话，请在调用 session_start() 函数 之前调用 session_name() 函数。
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;br /&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		如果启用了 session.use_trans_sid 选项， session_start() 函数会注册一个内部输出管理器， 该输出管理器完成 URL 重写的工作。
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;br /&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		如果用户联合使用 ob_start() 和 ob_gzhandler 函数， 那么函数的调用顺序会影响输出结果。 例如，必须在开始会话之前调用 ob_gzhandler 函数完成注册。
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;br /&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;br /&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		参数
+	&lt;/p&gt;
+	&lt;p&gt;
+		options
+	&lt;/p&gt;
+	&lt;p&gt;
+		此参数是一个关联数组，如果提供，那么会用其中的项目覆盖 会话配置指示 中的配置项。此数组中的键无需包含 session. 前缀。
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;br /&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		除了常规的会话配置指示项， 还可以在此数组中包含 read_and_close 选项。如果将此选项的值设置为 TRUE， 那么会话文件会在读取完毕之后马上关闭， 因此，可以在会话数据没有变动的时候，避免不必要的文件锁。
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;br /&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;br /&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		返回值
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;br /&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		成功开始会话返回 TRUE ，反之返回 FALSE
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;br /&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;br /&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		更新日志
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;br /&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;br /&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;br /&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;br /&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		版本
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;br /&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		说明
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;br /&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;br /&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		7.0.0 新加 options 参数。 &amp;nbsp;
+	&lt;/p&gt;
+	&lt;p&gt;
+		5.3.0 如果函数调用失败返回 FALSE， 之前版本返回了 TRUE。 &amp;nbsp;
+	&lt;/p&gt;
+	&lt;p&gt;
+		4.3.3 在 PHP 4.3.3 中， 会话开始之后调用 session_start() 函数 会引发 E_NOTICE 级别的错误， 并且第二次请求开始会话的调用会被忽略。 &amp;nbsp;
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;br /&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;br /&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;br /&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		范例
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;br /&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;br /&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		基本的会话示例
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;br /&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;br /&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;br /&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;br /&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		Example #1 page1.php
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;br /&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;br /&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;&amp;lt;?php
+// page1.php
+session_start();
+echo \'Welcome to page #1\';
+$_SESSION[\'favcolor\'] = \'green\';
+$_SESSION[\'animal\']   = \'cat\';
+$_SESSION[\'time\']     = time();
+// 如果使用 cookie 方式传送会话 ID
+echo \'&amp;lt;br /&amp;gt;&amp;lt;a href=&quot;page2.php&quot;&amp;gt;page 2&amp;lt;/a&amp;gt;\';
+// 如果不是使用 cookie 方式传送会话 ID，则使用 URL 改写的方式传送会话 ID
+echo \'&amp;lt;br /&amp;gt;&amp;lt;a href=&quot;page2.php?\' . SID . \'&quot;&amp;gt;page 2&amp;lt;/a&amp;gt;\';
+?&amp;gt;  &lt;/pre&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;br /&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;br /&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		请求 page1.php 页面之后， 第二个页面 page2.php 会包含会话数据。 请查阅 会话参考 获取更多关于 会话 ID 传送的信息， 在该参考页面中有关于常量 SID 的详细说明。
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;br /&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;br /&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;br /&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;br /&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		Example #2 page2.php
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;br /&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;br /&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;&amp;lt;?php
+// page2.php
+session_start();
+echo \'Welcome to page #2&amp;lt;br /&amp;gt;\';
+echo $_SESSION[\'favcolor\']; // green
+echo $_SESSION[\'animal\'];   // cat
+echo date(\'Y m d H:i:s\', $_SESSION[\'time\']);
+// 类似 page1.php 中的代码，你可能需要在这里处理使用 SID 的场景
+echo \'&amp;lt;br /&amp;gt;&amp;lt;a href=&quot;page1.php&quot;&amp;gt;page 1&amp;lt;/a&amp;gt;\';
+?&amp;gt;  &lt;/pre&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;br /&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;br /&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;br /&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		调用 session_start() 的时候指定选项
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;br /&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;br /&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		Example #3 覆盖 Cookie 超时时间设定
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;br /&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;br /&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;&amp;lt;?php
+// 设置 cookie 的有效时间为 1 天
+session_start([
+   \'cookie_lifetime\' =&amp;gt; 86400,
+]);
+?&amp;gt;  &lt;/pre&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;br /&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;br /&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		Example #4 读取会话之后立即关闭会话存储文件
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;br /&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;br /&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;&amp;lt;?php
+// 如果确定不修改会话中的数据，
+// 我们可以在会话文件读取完毕之后立即关闭它
+// 来避免由于给会话文件加锁导致其他页面阻塞
+session_start([
+   \'cookie_lifetime\' =&amp;gt; 86400,
+   \'read_and_close\'  =&amp;gt; true,
+]);  &lt;/pre&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;br /&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;br /&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		注释
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;br /&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;br /&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		Note:
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;br /&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		要使用基于 cookie 的会话， 必须在输出开始之前调用 session_start() 函数。
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;br /&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;br /&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;br /&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		Note:
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;br /&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		建议使用 zlib.output_compression 来替代 ob_gzhandler()。
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;br /&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;br /&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;br /&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		Note:
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;br /&gt;
+	&lt;/p&gt;
+	&lt;p&gt;
+		根据配置不同，本函数会发送几个 HTTP 响应头。 参考 session_cache_limiter() 来自定义 HTTP 响应头。
+	&lt;/p&gt;
+	&lt;p&gt;
+		&lt;br /&gt;
+	&lt;/p&gt;
+&lt;/p&gt;',`aid`='1' WHERE ( aid=1 ) [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000021s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000036s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002276s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002291s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000229s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000240s ]
+
+[ 2016-08-19T23:54:50+08:00 ] 182.18.73.136 /index.php/Admin/Article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000225s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( rstatus=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0005s ]
+SQL: SELECT `aid`,`atitle`,`acontent`,`acid`,`cname`,`atime`,`aorder` FROM `article` left join category ON category.cid = article.acid  ORDER BY aorder asc ,atime desc LIMIT 0,20   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 256 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 257 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 262 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 265 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 318 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 321 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012418s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012446s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000150s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000386s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000410s ]
+
+[ 2016-08-19T23:55:27+08:00 ] 182.18.73.136 /index.php/Admin/Article/edit.html?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000218s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( rstatus=0 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `article` WHERE ( aid=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/761055de2f430bef08441163fbb8bda7.php 第 256 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/761055de2f430bef08441163fbb8bda7.php 第 257 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/761055de2f430bef08441163fbb8bda7.php 第 262 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/761055de2f430bef08441163fbb8bda7.php 第 265 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/761055de2f430bef08441163fbb8bda7.php 第 318 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/761055de2f430bef08441163fbb8bda7.php 第 321 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007779s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007794s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000256s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000271s ]
+
+[ 2016-08-19T23:57:11+08:00 ] 182.18.73.136 /index.php/Admin/Article/doEdit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000221s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( rstatus=0 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate /home/u325084755/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /home/u325084755/public_html/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `article` SET `atitle`='session_start',`acid`='1',`aorder`='1',`acontent`='&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;span style=&quot;line-height:1.5;&quot;&gt;session_start&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	(PHP 4, PHP 5, PHP 7)
+&lt;/p&gt;
+&lt;p&gt;
+	session_start — 启动新会话或者重用现有会话
+&lt;/p&gt;
+&lt;p&gt;
+	说明
+&lt;/p&gt;
+&lt;p&gt;
+	bool session_start ([ array $options = [] ] )
+&lt;/p&gt;
+&lt;p&gt;
+	session_start() 会创建新会话或者重用现有会话。 如果通过 GET 或者 POST 方式，或者使用 cookie 提交了会话 ID， 则会重用现有会话。
+&lt;/p&gt;
+&lt;p&gt;
+	当会话自动开始或者通过 session_start() 手动开始的时候， PHP 内部会调用会话管理器的 open 和 read 回调函数。 会话管理器可能是 PHP 默认的， 也可能是扩展提供的（SQLite 或者 Memcached 扩展）， 也可能是通过 session_set_save_handler() 设定的用户自定义会话管理器。 通过 read 回调函数返回的现有会话数据（使用特殊的序列化格式存储）， PHP 会自动反序列化数据并且填充 $_SESSION 超级全局变量。
+&lt;/p&gt;
+&lt;p&gt;
+	要想使用命名会话，请在调用 session_start() 函数 之前调用 session_name() 函数。
+&lt;/p&gt;
+&lt;p&gt;
+	如果启用了 session.use_trans_sid 选项， session_start() 函数会注册一个内部输出管理器， 该输出管理器完成 URL 重写的工作。
+&lt;/p&gt;
+&lt;p&gt;
+	如果用户联合使用 ob_start() 和 ob_gzhandler 函数， 那么函数的调用顺序会影响输出结果。 例如，必须在开始会话之前调用 ob_gzhandler 函数完成注册。
+&lt;/p&gt;
+&lt;p&gt;
+	参数
+&lt;/p&gt;
+&lt;p&gt;
+	options
+&lt;/p&gt;
+&lt;p&gt;
+	此参数是一个关联数组，如果提供，那么会用其中的项目覆盖 会话配置指示 中的配置项。此数组中的键无需包含 session. 前缀
+&lt;/p&gt;
+&lt;p&gt;
+	除了常规的会话配置指示项， 还可以在此数组中包含 read_and_close 选项。如果将此选项的值设置为 TRUE， 那么会话文件会在读取完毕之后马上关闭， 因此，可以在会话数据没有变动的时候，避免不必要的文件锁。
+&lt;/p&gt;
+&lt;p&gt;
+	返回值
+&lt;/p&gt;
+&lt;p&gt;
+	成功开始会话返回 TRUE ，反之返回 FALSE
+&lt;/p&gt;
+&lt;p&gt;
+	更新日志
+&lt;/p&gt;
+&lt;p&gt;
+	版本
+&lt;/p&gt;
+&lt;p&gt;
+	说明
+&lt;/p&gt;
+&lt;p&gt;
+	7.0.0 新加 options 参数。 &amp;nbsp;
+&lt;/p&gt;
+&lt;p&gt;
+	5.3.0 如果函数调用失败返回 FALSE， 之前版本返回了 TRUE。 &amp;nbsp;
+&lt;/p&gt;
+&lt;p&gt;
+	4.3.3 在 PHP 4.3.3 中， 会话开始之后调用 session_start() 函数 会引发 E_NOTICE 级别的错误， 并且第二次请求开始会话的调用会被忽略。 &amp;nbsp;
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;span style=&quot;line-height:1.5;&quot;&gt;范例&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	基本的会话示例
+&lt;/p&gt;
+&lt;p&gt;
+	Example #1 page1.php
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;span style=&quot;line-height:1.5;&quot;&gt;&amp;lt;?php&lt;/span&gt;
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;// page1.php
+session_start();
+echo \'Welcome to page #1\';
+$_SESSION[\'favcolor\'] = \'green\';
+$_SESSION[\'animal\']   = \'cat\';
+$_SESSION[\'time\']     = time();
+// 如果使用 cookie 方式传送会话 ID
+echo \'&amp;lt;br /&amp;gt;&amp;lt;a href=&quot;page2.php&quot;&amp;gt;page 2&amp;lt;/a&amp;gt;\';
+// 如果不是使用 cookie 方式传送会话 ID，则使用 URL 改写的方式传送会话 ID
+echo \'&amp;lt;br /&amp;gt;&amp;lt;a href=&quot;page2.php?\' . SID . \'&quot;&amp;gt;page 2&amp;lt;/a&amp;gt;\';
+?&amp;gt;  &lt;/pre&gt;
+&lt;p&gt;
+	请求 page1.php 页面之后， 第二个页面 page2.php 会包含会话数据。 请查阅 会话参考 获取更多关于 会话 ID 传送的信息， 在该参考页面中有关于常量 SID 的详细说明。
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;span style=&quot;line-height:1.5;&quot;&gt;Example #2 page2.php&lt;/span&gt;
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;&amp;lt;?php
+// page2.php
+session_start();
+echo \'Welcome to page #2&amp;lt;br /&amp;gt;\';
+echo $_SESSION[\'favcolor\']; // green
+echo $_SESSION[\'animal\'];   // cat
+echo date(\'Y m d H:i:s\', $_SESSION[\'time\']);
+// 类似 page1.php 中的代码，你可能需要在这里处理使用 SID 的场景
+echo \'&amp;lt;br /&amp;gt;&amp;lt;a href=&quot;page1.php&quot;&amp;gt;page 1&amp;lt;/a&amp;gt;\';
+?&amp;gt;  &lt;/pre&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	调用 session_start() 的时候指定选项
+&lt;/p&gt;
+&lt;p&gt;
+	Example #3 覆盖 Cookie 超时时间设定
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;span style=&quot;line-height:1.5;&quot;&gt;&amp;lt;?php&lt;/span&gt;
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;// 设置 cookie 的有效时间为 1 天
+session_start([
+   \'cookie_lifetime\' =&amp;gt; 86400,
+]);
+?&amp;gt;  &lt;/pre&gt;
+&lt;p&gt;
+	&lt;span style=&quot;line-height:1.5;&quot;&gt;Example #4 读取会话之后立即关闭会话存储文件&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;span style=&quot;line-height:1.5;&quot;&gt;&amp;lt;?php&lt;/span&gt;
+&lt;/p&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;// 如果确定不修改会话中的数据，
+// 我们可以在会话文件读取完毕之后立即关闭它
+// 来避免由于给会话文件加锁导致其他页面阻塞
+session_start([
+   \'cookie_lifetime\' =&amp;gt; 86400,
+   \'read_and_close\'  =&amp;gt; true,
+]);  &lt;/pre&gt;
+&lt;p&gt;
+	&lt;span style=&quot;line-height:1.5;&quot;&gt;注释&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	Note:
+&lt;/p&gt;
+&lt;p&gt;
+	要使用基于 cookie 的会话， 必须在输出开始之前调用 session_start() 函数。
+&lt;/p&gt;
+&lt;p&gt;
+	Note:
+&lt;/p&gt;
+&lt;p&gt;
+	建议使用 zlib.output_compression 来替代 ob_gzhandler()。
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;span style=&quot;line-height:1.5;&quot;&gt;Note:&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	根据配置不同，本函数会发送几个 HTTP 响应头。 参考 session_cache_limiter() 来自定义 HTTP 响应头。
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;
+	&lt;br /&gt;
+&lt;/p&gt;',`aid`='1' WHERE ( aid=1 ) [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000020s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000035s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021475s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021502s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000247s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000260s ]
+
+[ 2016-08-19T23:57:13+08:00 ] 182.18.73.136 /index.php/Admin/Article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000220s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( rstatus=0 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0004s ]
+SQL: SELECT `aid`,`atitle`,`acontent`,`acid`,`cname`,`atime`,`aorder` FROM `article` left join category ON category.cid = article.acid  ORDER BY aorder asc ,atime desc LIMIT 0,20   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 256 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 257 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 262 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 265 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 318 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 321 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008094s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008110s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000253s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000267s ]
+

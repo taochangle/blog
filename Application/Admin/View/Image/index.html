@@ -1,0 +1,92 @@
+<include file="Public:header" />
+<link href="__PUBLIC__/Admin/fileinput/css/fileinput.css" media="all"
+	rel="stylesheet" type="text/css" />
+<script src="__PUBLIC__/Admin/fileinput/js/plugins/purify.min.js"></script>
+<script src="__PUBLIC__/Admin/fileinput/js/all-krajee.js"></script>
+<script src="__PUBLIC__/Admin/fileinput/js/plugins/sortable.min.js"></script>
+<script src="__PUBLIC__/Admin/fileinput/js/fileinput.min.js"></script>
+<script src="__PUBLIC__/Admin/fileinput/js/locales/zh.js"
+	type="text/javascript"></script>
+<script src="__PUBLIC__/Admin/bootstrap/js/bootstrap.min.js"
+	type="text/javascript"></script>
+<div class="row">
+	<div class="col-md-8">
+		<div class="box box-info">
+			<div class="box-header with-border">
+				<h3 class="box-title">密码修改</h3>
+			</div>
+			<!-- /.box-header -->
+			<!-- form start -->
+			<form class="form-horizontal" action="{:U('User/doChangePassword')}"
+				method='post'>
+				<div class="box-body">
+					<div class="file-input file-input-ajax-new">
+						<div class="file-preview ">
+							<div class="close fileinput-remove">×</div>
+							<div class=" file-drop-zone">
+								<div class="file-drop-zone-title">Drag &amp; drop files
+									here …</div>
+								<div class="file-preview-thumbnails"></div>
+								<div class="clearfix"></div>
+								<div class="file-preview-status text-center text-success"></div>
+								<div class="kv-fileinput-error file-error-message"
+									style="display: none;"></div>
+							</div>
+						</div>
+						<div class="kv-upload-progress hide">
+							<div class="progress">
+								<div
+									class="progress-bar progress-bar-success progress-bar-striped active"
+									role="progressbar" aria-valuenow="0" aria-valuemin="0"
+									aria-valuemax="100" style="width: 0%;">0%</div>
+							</div>
+						</div>
+						<div class="input-group file-caption-main">
+							<div tabindex="500"
+								class="form-control file-caption  kv-fileinput-caption">
+								<div class="file-caption-name"></div>
+							</div>
+
+							<div class="input-group-btn">
+								<button type="button" tabindex="500"
+									title="Clear selected files"
+									class="btn btn-default fileinput-remove fileinput-remove-button">
+									<i class="glyphicon glyphicon-trash"></i> <span
+										class="hidden-xs">Remove</span>
+								</button>
+								<button type="button" tabindex="500"
+									title="Abort ongoing upload"
+									class="btn btn-default hide fileinput-cancel fileinput-cancel-button">
+									<i class="glyphicon glyphicon-ban-circle"></i> <span
+										class="hidden-xs">Cancel</span>
+								</button>
+								<a href="/file-upload-batch/2" tabindex="500"
+									title="Upload selected files"
+									class="btn btn-default fileinput-upload fileinput-upload-button"><i
+									class="glyphicon glyphicon-upload"></i> <span class="hidden-xs">Upload</span></a>
+								<div tabindex="500" class="btn btn-primary btn-file">
+									<i class="glyphicon glyphicon-folder-open"></i>&nbsp; <span
+										class="hidden-xs">Browse …</span><input id="input-44"
+										name="input44[]" type="file" multiple="" class="">
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<!-- /.box-body -->
+
+				<!-- /.box-footer -->
+			</form>
+		</div>
+	</div>
+</div>
+<script>
+	$(document).on('ready', function() {
+		$("#input-44").fileinput({
+			uploadUrl : '/file-upload-batch/2',
+			maxFilePreviewSize : 10240
+		});
+	});
+</script>
+<include file="Public:footer" />

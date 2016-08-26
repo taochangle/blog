@@ -1,0 +1,29 @@
+[ 2016-08-26T07:01:27+08:00 ] 66.249.73.173 /blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001781s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008787s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `category` ORDER BY ctime desc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0107s ]
+SQL: SELECT DISTINCT FROM_UNIXTIME(atime,'%m') as month,`aid` FROM `article` ORDER BY atime desc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `article` ORDER BY atime desc LIMIT 0,10   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `article` ORDER BY atime desc LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name`,`aid`,`atitle`,`cname`,`cid`,`acontent`,count(zid) as zancount,`atime`,`acid` FROM `article` left join zan on aid = zaid left join user on id = auid left join category  on cid =acid  GROUP BY aid ORDER BY atime desc LIMIT 0,5   [ RunTime:0.0217s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.123114s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.123158s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007292s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007313s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002256s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002271s ]
+

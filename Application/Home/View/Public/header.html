@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>又一个漂亮的博客</title>
+
+<!-- meta -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="__PUBLIC__/Home/img/favicon.ico" rel="shortcut icon">
+
+<!-- css -->
+<link rel="stylesheet" href="__PUBLIC__/Home/css/bootstrap.min.css">
+<link rel="stylesheet" href="__PUBLIC__/Home/css/ionicons.min.css">
+<!-- <link rel="stylesheet" href="__PUBLIC__/Home/css/custom.css"> -->
+  <link href="__PUBLIC__/Home/css/blog.css" rel="stylesheet">
+<!-- js -->
+
+<script src="__PUBLIC__/Home/js/bootstrap.min.js"></script>
+<script src="__PUBLIC__/Home/js/pace.min.js"></script>
+<script src="__PUBLIC__/Home/js/modernizr.custom.js"></script>
+
+<link rel="stylesheet" href="__PUBLIC__/Home/css/messenger.css" />
+<link rel="stylesheet" href="__PUBLIC__/Home/css/messenger-theme-future.css" />
+<link rel="stylesheet" href="__PUBLIC__/Home/css/messenger-theme-air.css" />
+<link rel="stylesheet" href="__PUBLIC__/Home/css/messenger-theme-block.css" />
+<link rel="stylesheet" href="__PUBLIC__/Home/css/messenger-theme-ice.css" />
+<link rel="stylesheet" href="__PUBLIC__/Home/css/messenger-theme-flat.css" />
+<style>
+body {
+ font-family:微软雅黑
+}
+
+</style>
+</head>
+<body>
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="blog-nav">
+          <a class="blog-nav-item" href="__URL__">首页</a>          
+          <foreach name='menu' item='v'>
+          <a class="blog-nav-item" href="{:U('Index/category','cid='.$v['cid'])}">{$v.cname}</a>
+          </foreach>
+        </nav>
+      </div>
+    </div>
+
+
+	
+
+	
+	
+	
+	

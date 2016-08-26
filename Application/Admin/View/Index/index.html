@@ -1,0 +1,60 @@
+<include file="Public:header" />
+<div class="row">
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="info-box">
+            <span class="info-box-icon bg-aqua">磁盘</span>
+
+            <div class="info-box-content">
+              <span class="info-box-text">服务器剩余</span>
+              <span class="info-box-number">{$disk}<small>Gb</small></span>
+            </div>
+            <!-- /.info-box-content -->
+          </div>
+          <!-- /.info-box -->
+        </div>
+        <!-- /.col -->
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="info-box">
+            <span class="info-box-icon bg-red">内存</span>
+
+            <div class="info-box-content">
+              <span class="info-box-text">内存占用</span>
+              <span class="info-box-number">{$memery}<small>Mb</small></span>
+            </div>
+            <!-- /.info-box-content -->
+          </div>
+          <!-- /.info-box -->
+        </div>
+        <!-- /.col -->
+
+        <!-- fix for small devices only -->
+        <div class="clearfix visible-sm-block"></div>
+
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="info-box">
+            <span class="info-box-icon bg-green">分类</span>
+
+            <div class="info-box-content">
+              <span class="info-box-text">分类总数</span>
+              <span class="info-box-number">{$categoryCount} <small>个</small></span>
+            </div>
+            <!-- /.info-box-content -->
+          </div>
+          <!-- /.info-box -->
+        </div>
+        <!-- /.col -->
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="info-box">
+            <span class="info-box-icon bg-yellow">文章</span>
+
+            <div class="info-box-content">
+              <span class="info-box-text">文章总数</span>
+              <span class="info-box-number">{$articleCount} <small>篇</small></span>
+            </div>
+            <!-- /.info-box-content -->
+          </div>
+          <!-- /.info-box -->
+        </div>
+        <!-- /.col -->
+      </div>
+<include file="Public:footer" />

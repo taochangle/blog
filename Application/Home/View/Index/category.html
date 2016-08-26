@@ -1,0 +1,40 @@
+<include file="Public:header" />
+<div class="content-body">
+			<div class="container">
+				<div class="row">
+					<main class="col-md-12">
+						<foreach name='list' item='k'>
+						<article class="post post-1">
+							<header class="entry-header">
+								<h1 class="entry-title">
+									<a href="{:U('Index/article','aid='.$k['aid'])}">{$k.atitle}</a>
+								</h1>
+								<div class="entry-meta">
+									<span class="post-category"><a href="{:U('Index/category','cid='.$k['acid'])}">{$k.cname}</a></span>
+			
+									<span class="post-date"><a href="#"><time class="entry-date" datetime="2012-11-09T23:15:57+00:00">{$k.atime|date='Y-m-d',###}</time></a></span>
+			
+									<span class="post-author"><a href="#">{$k.name}</a></span>
+			
+									<span class="comments-link"><a href="">{$k.zancount} </a></span>
+								</div>
+							</header>
+							<div class="entry-content clearfix" >
+								<p>{$k.acontent|html_entity_decode}</p>
+								<div class="read-more cl-effect-14">
+									<a href="{:U('Index/article','aid='.$k['aid'])}" class="more-link">阅读全文 <span class="meta-nav">→</span></a>
+								</div>
+							</div>
+						</article>
+					  </foreach> 
+			<nav class="text-center">
+				<ul class="pagination ">
+					{$page}
+
+				</ul>
+			</nav>
+			</main>
+				</div>
+			</div>
+		</div>
+<include file="Public:footer" />

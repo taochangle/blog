@@ -1,0 +1,82 @@
+<include file="Public:header" />
+
+ <div class="container">
+
+      <div class="blog-header">
+        
+      </div>
+
+      <div class="row">
+
+        <div class="col-sm-8 blog-main">
+          <div class="blog-post">
+            <h2 class="blog-post-title">{$data['atitle']}</h2>
+            <p class="blog-post-meta">{$data['atime']|date='Y-m-d',###} by {$data['name']} @<a
+							href="{:U('Index/category','cid='.$data['acid'])}">{$data['cname']}</a></p>
+
+            <p>{$data['acontent']|html_entity_decode}</p>
+            				<p class="text-center">
+					<button id="zanBtn" type="button" class="btn btn-default btn-xs" onclick='zan()'>
+						<span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>
+						赞 <span id='zanCount'>{$zanCount}</span>
+					</button>
+				</p>
+          </div><!-- /.blog-post -->
+
+
+
+        </div><!-- /.blog-main -->
+
+        <include file="Public:aside" />
+
+      </div><!-- /.row -->
+
+    </div><!-- /.container -->
+
+
+<script>
+
+	$(document).ready(function() {		
+		$.ajax({
+			url : "<?php echo U('Index/ChaXunYiZan');?>",
+			data : {
+				aid:"<?php echo $data['aid'];?>"
+			},
+			success : function(data,status) {				
+				if(data=='false'){
+					$("#zanBtn").attr('disabled',"true");              
+				}
+			}
+		});
+	});
+	function zan(){
+		
+		$.ajax({
+			url : "<?php echo U('Index/zan');?>",
+			data : {
+				aid:"<?php echo $data['aid'];?>"
+			},
+			success : function(data,status) {
+				if(data=='true'){
+					$._messengerDefaults = {
+							extraClasses: 'messenger-fixed messenger-theme-future  messenger-on-bottom'
+						}
+					jQuery.globalMessenger().post({
+	                    message: "谢谢老板!",
+	                    hideAfter: 2,
+	                    type: 'success',
+	                    showCloseButton: true
+	                });
+					$("#zanCount").html(parseInt($("#zanCount").html())+1);
+					$("#zanBtn").attr('disabled',"true");
+					
+				}
+			}
+		});
+	}
+	
+	
+	
+	
+</script>
+<include file="Public:footer" />

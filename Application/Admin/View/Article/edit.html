@@ -1,0 +1,82 @@
+<include file="Public:header" />
+<div class="row">
+	<div class="col-md-8">
+		<div class="box box-info">
+			<div class="box-header with-border">
+				<h3 class="box-title">Horizontal Form</h3>
+			</div>
+			<!-- /.box-header -->
+			<!-- form start -->
+			<form class="form-horizontal" method="post" action="{:U('Article/doEdit')}">
+				<div class="box-body">
+					<div class="form-group">
+						<label for="inputEmail3" class="col-sm-2 control-label">文章标题</label>
+						<div class="col-sm-10">
+							<input type="text" class="form-control" id="inputEmail3"
+								placeholder="文章标题" name='atitle'  value="{$artData.atitle}">
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="inputPassword3" class="col-sm-2 control-label">分类</label>
+
+						<div class="col-sm-10">
+						
+							<select class="form-control" name='acid'>
+							<foreach name="catData" item="v">
+								<option value="{$v.cid}" <php> if($v['cid']==$artData['acid']){ echo "selected";} </php> >{$v.cname}</option>
+							</foreach>
+							</select>
+							
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="inputPassword3" class="col-sm-2 control-label">文章排序</label>
+						<div class="col-sm-10">
+							<input type="text" class="form-control" id="inputPassword3"
+								placeholder="文章排序" name='aorder' value="{$artData.aorder}">
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="inputPassword3" class="col-sm-2 control-label">正文</label>
+
+						<div class="col-sm-10">
+							<textarea name='acontent' class="form-control" rows="5"
+								placeholder="分类描述">{$artData.acontent}</textarea>
+						</div>
+					</div>
+	<input type="hidden" name="aid" value="{$artData.aid}"/>
+				</div>
+				<!-- /.box-body -->
+				<div class="box-footer">
+					<button type="submit" class="btn btn-info pull-right">保存</button>
+				</div>
+				
+				<!-- /.box-footer -->
+			</form>
+		</div>
+	</div>
+
+
+</div>
+<script>
+$(function(){
+    var editor;
+    KindEditor.ready(function(K) {
+        editor = K.create('textarea[name="acontent"]', {
+            allowFileManager : true,
+            //autoHeightMode : true,
+            height:'500px',
+            afterCreate : function() {
+                this.loadPlugin('autoheight');
+            },
+            afterUpload : function(url) {
+                var firstimageoption = '<option value="' + url + '">' + url + '</option>';
+                var selectoption = '<option value="' + url + '" selected="selected">' + url + '</option>';
+                $("#firstimage").append(firstimageoption);
+                $("#images").append(selectoption);
+            }
+        });
+    });
+})
+</script>
+<include file="Public:footer" />

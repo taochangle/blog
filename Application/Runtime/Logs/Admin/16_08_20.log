@@ -1,0 +1,1416 @@
+[ 2016-08-20T00:16:34+08:00 ] 182.18.73.136 /index.php/Admin/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000213s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000047s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002425s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002440s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000083s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000217s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000228s ]
+
+[ 2016-08-20T00:16:35+08:00 ] 182.18.73.136 /index.php/Admin/User/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000239s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000259s ]
+
+[ 2016-08-20T00:16:59+08:00 ] 182.18.73.136 /index.php/Admin/User/doLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000217s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: validate /home/u325084755/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT `id`,`name`,`password`,`image` FROM `admin` WHERE `name` = 'taoxin' AND `password` = '209afd815b14acfa4943be0491e4757c' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000018s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000033s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002335s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002350s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000086s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000095s ]
+
+[ 2016-08-20T00:17:15+08:00 ] 182.18.73.136 /index.php/Admin/User/verify/id.html/0.8296812330372632
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000226s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000244s ]
+
+[ 2016-08-20T00:17:27+08:00 ] 182.18.73.136 /index.php/Admin/User/doLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000210s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: validate /home/u325084755/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT `id`,`name`,`password`,`image` FROM `admin` WHERE `name` = 'taoxin' AND `password` = '209afd815b14acfa4943be0491e4757c' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000015s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000029s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002215s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000083s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000092s ]
+
+[ 2016-08-20T00:23:10+08:00 ] 182.18.73.136 /index.php/admin/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003716s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003739s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000135s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+
+[ 2016-08-20T00:23:16+08:00 ] 182.18.73.136 /index.php/Admin/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000209s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000041s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002369s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002383s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000083s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000219s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000230s ]
+
+[ 2016-08-20T00:23:17+08:00 ] 182.18.73.136 /index.php/Admin/User/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000440s ]
+
+[ 2016-08-20T00:23:50+08:00 ] 182.18.73.136 /index.php/Admin/User/doLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000214s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate /home/u325084755/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT `id`,`name`,`password`,`image` FROM `admin` WHERE `name` = 'taoxin' AND `password` = '209afd815b14acfa4943be0491e4757c' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000018s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000038s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002303s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002318s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000094s ]
+
+[ 2016-08-20T00:24:00+08:00 ] 182.18.73.136 /index.php/Admin/User/verify/id.html/0.895297352457419
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000218s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000236s ]
+
+[ 2016-08-20T00:24:10+08:00 ] 182.18.73.136 /index.php/Admin/User/doLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000218s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate /home/u325084755/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT `id`,`name`,`password`,`image` FROM `admin` WHERE `name` = 'taoxin' AND `password` = '96e79218965eb72c92a549dd5a330112' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `admin` SET `name`='taoxin',`password`='96e79218965eb72c92a549dd5a330112',`datetime`='1471623850' WHERE ( id=1 ) [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000018s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000032s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002254s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002269s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000235s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000247s ]
+
+[ 2016-08-20T00:24:11+08:00 ] 182.18.73.136 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000321s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( rstatus=0 ) LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] disk_free_space(): No such file or directory /home/u325084755/public_html/Application/Admin/Controller/IndexController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 256 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 257 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 262 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 265 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 318 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 321 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008889s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008908s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000278s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000299s ]
+
+[ 2016-08-20T00:24:25+08:00 ] 182.18.73.136 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000214s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( rstatus=0 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] disk_free_space(): No such file or directory /home/u325084755/public_html/Application/Admin/Controller/IndexController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 256 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 257 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 262 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 265 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 318 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 321 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007113s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007126s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000091s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000241s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000255s ]
+
+[ 2016-08-20T00:24:38+08:00 ] 182.18.73.136 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000231s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( rstatus=0 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] disk_free_space(): No such file or directory /home/u325084755/public_html/Application/Admin/Controller/IndexController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0087s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 256 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 257 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 262 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 265 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 318 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 321 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012550s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012570s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000156s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000380s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000407s ]
+
+[ 2016-08-20T00:25:11+08:00 ] 182.18.73.136 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000341s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( rstatus=0 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] disk_free_space(): No such file or directory /home/u325084755/public_html/Application/Admin/Controller/IndexController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 256 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 257 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 262 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 265 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 318 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 321 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007263s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007280s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000096s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000245s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000260s ]
+
+[ 2016-08-20T00:25:18+08:00 ] 182.18.73.136 /index.php/Admin/User/changePassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000323s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/d15b34a76fed2a6c74cb8804719d9721.php 第 256 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/d15b34a76fed2a6c74cb8804719d9721.php 第 257 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/d15b34a76fed2a6c74cb8804719d9721.php 第 262 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/d15b34a76fed2a6c74cb8804719d9721.php 第 265 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/d15b34a76fed2a6c74cb8804719d9721.php 第 318 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/d15b34a76fed2a6c74cb8804719d9721.php 第 321 行.
+NOTIC: [8] Undefined variable: replyCount /home/u325084755/public_html/Application/Runtime/Cache/Admin/d15b34a76fed2a6c74cb8804719d9721.php 第 376 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020263s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020278s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000247s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000261s ]
+
+[ 2016-08-20T00:25:42+08:00 ] 182.18.73.136 /index.php/Admin/User/doChangePassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000320s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Admin/Controller/UserController.class.php 第 112 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `user` WHERE ( id= ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `user` WHERE ( id= ) LIMIT 1  
+
+[ 2016-08-20T00:25:52+08:00 ] 182.18.73.136 /index.php/Admin/User/doChangePassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000216s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Admin/Controller/UserController.class.php 第 112 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `user` WHERE ( id= ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `user` WHERE ( id= ) LIMIT 1  
+
+[ 2016-08-20T00:25:57+08:00 ] 182.18.73.136 /index.php/Admin/User/doChangePassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000210s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Admin/Controller/UserController.class.php 第 112 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `user` WHERE ( id= ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `user` WHERE ( id= ) LIMIT 1  
+
+[ 2016-08-20T00:26:04+08:00 ] 182.18.73.136 /index.php/Admin/User/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000223s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000045s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002481s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002499s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000129s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000323s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000339s ]
+
+[ 2016-08-20T00:26:06+08:00 ] 182.18.73.136 /index.php/Admin/User/lockscreen.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000215s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/54569aa957f09b5eb96e0fea57300e84.php 第 33 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/54569aa957f09b5eb96e0fea57300e84.php 第 39 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/54569aa957f09b5eb96e0fea57300e84.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018408s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018420s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000088s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000227s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000239s ]
+
+[ 2016-08-20T11:26:58+08:00 ] 106.2.209.173 /index.php/Admin/user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000281s ]
+ERR: 非法操作:index
+
+[ 2016-08-20T11:27:05+08:00 ] 106.2.209.173 /index.php/Admin/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000207s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000048s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045539s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045566s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000152s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000372s ]
+
+[ 2016-08-20T11:27:06+08:00 ] 106.2.209.173 /index.php/Admin/User/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000276s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000306s ]
+
+[ 2016-08-20T11:27:17+08:00 ] 106.2.209.173 /index.php/Admin/User/doLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000222s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: validate /home/u325084755/public_html/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT `id`,`name`,`password`,`image` FROM `admin` WHERE `name` = 'taoxin' AND `password` = '96e79218965eb72c92a549dd5a330112' LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `admin` SET `name`='taoxin',`password`='96e79218965eb72c92a549dd5a330112',`datetime`='1471663637' WHERE ( id=1 ) [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000049s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024211s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024240s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000127s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000319s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000333s ]
+
+[ 2016-08-20T11:27:18+08:00 ] 106.2.209.173 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000212s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( rstatus=0 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] disk_free_space(): No such file or directory /home/u325084755/public_html/Application/Admin/Controller/IndexController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 256 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 257 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 262 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 265 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 318 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 321 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048800s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048835s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000376s ]
+
+[ 2016-08-20T11:27:31+08:00 ] 106.2.209.173 /index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000226s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( rstatus=0 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0014s ]
+SQL: SELECT `aid`,`atitle`,`acontent`,`acid`,`cname`,`atime`,`aorder` FROM `article` left join category ON category.cid = article.acid  ORDER BY aorder asc ,atime desc LIMIT 0,20   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 256 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 257 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 262 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 265 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 318 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 321 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014998s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015024s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000238s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000253s ]
+
+[ 2016-08-20T11:27:33+08:00 ] 106.2.209.173 /index.php/Admin/Article/edit.html?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000211s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( rstatus=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `article` WHERE ( aid=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/761055de2f430bef08441163fbb8bda7.php 第 256 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/761055de2f430bef08441163fbb8bda7.php 第 257 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/761055de2f430bef08441163fbb8bda7.php 第 262 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/761055de2f430bef08441163fbb8bda7.php 第 265 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/761055de2f430bef08441163fbb8bda7.php 第 318 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/761055de2f430bef08441163fbb8bda7.php 第 321 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018733s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018747s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000096s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000242s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000258s ]
+
+[ 2016-08-20T11:28:34+08:00 ] 106.2.209.173 /index.php/Admin/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000219s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( rstatus=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` ORDER BY corder asc LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/9bfef0f9f473c596f668b6c9a32bfd5c.php 第 256 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/9bfef0f9f473c596f668b6c9a32bfd5c.php 第 257 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/9bfef0f9f473c596f668b6c9a32bfd5c.php 第 262 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/9bfef0f9f473c596f668b6c9a32bfd5c.php 第 265 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/9bfef0f9f473c596f668b6c9a32bfd5c.php 第 318 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/9bfef0f9f473c596f668b6c9a32bfd5c.php 第 321 行.
+NOTIC: [8] Undefined index: cneme /home/u325084755/public_html/Application/Runtime/Cache/Admin/9bfef0f9f473c596f668b6c9a32bfd5c.php 第 456 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034196s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034217s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000092s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000236s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000252s ]
+
+[ 2016-08-20T11:28:40+08:00 ] 106.2.209.173 /index.php/Admin/Category/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000214s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( rstatus=0 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/95612c4b24bfa83d0c6f94203c668e18.php 第 256 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/95612c4b24bfa83d0c6f94203c668e18.php 第 257 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/95612c4b24bfa83d0c6f94203c668e18.php 第 262 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/95612c4b24bfa83d0c6f94203c668e18.php 第 265 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/95612c4b24bfa83d0c6f94203c668e18.php 第 318 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/Application/Runtime/Cache/Admin/95612c4b24bfa83d0c6f94203c668e18.php 第 321 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019638s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019660s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000119s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000506s ]
+
+[ 2016-08-20T16:46:30+08:00 ] 106.2.209.173 /blog/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000218s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000046s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002478s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002497s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000138s ]
+
+[ 2016-08-20T16:46:35+08:00 ] 106.2.209.173 /blog/index.php/Admin/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000223s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000022s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000038s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002360s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002374s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000088s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000223s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000235s ]
+
+[ 2016-08-20T16:46:35+08:00 ] 106.2.209.173 /blog/index.php/Admin/User/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000406s ]
+
+[ 2016-08-20T16:53:07+08:00 ] 106.2.209.173 /index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000019s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000039s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003343s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003364s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000139s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+
+[ 2016-08-20T16:53:08+08:00 ] 106.2.209.173 /index.php/Admin/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000222s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000046s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002572s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002586s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000087s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000221s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000232s ]
+
+[ 2016-08-20T16:53:09+08:00 ] 106.2.209.173 /index.php/Admin/User/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000256s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000277s ]
+
+[ 2016-08-20T16:53:43+08:00 ] 106.2.209.173 /index.php/Admin/User/verify/id.html/0.4946458387606305
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000237s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000257s ]
+
+[ 2016-08-20T16:53:48+08:00 ] 106.2.209.173 /index.php/Admin/User/doLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0137s ]
+NOTIC: [8] Undefined index: validate /home/u325084755/public_html/blog/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT `id`,`name`,`password`,`image` FROM `admin` WHERE `name` = 'taoxin' AND `password` = '96e79218965eb72c92a549dd5a330112' LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `admin` SET `name`='taoxin',`password`='96e79218965eb72c92a549dd5a330112',`datetime`='1471683228' WHERE ( id=1 ) [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000046s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003489s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003511s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000137s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000362s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000380s ]
+
+[ 2016-08-20T16:53:49+08:00 ] 106.2.209.173 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( rstatus=0 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] disk_free_space(): No such file or directory /home/u325084755/public_html/blog/Application/Admin/Controller/IndexController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `category` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/blog/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 256 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/blog/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 257 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/blog/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 262 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/blog/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 265 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/blog/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 318 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/blog/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 321 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011741s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011762s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000160s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000648s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000672s ]
+
+[ 2016-08-20T16:53:59+08:00 ] 106.2.209.173 /index.php/Admin/User/changePassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000216s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/blog/Application/Runtime/Cache/Admin/d15b34a76fed2a6c74cb8804719d9721.php 第 256 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/blog/Application/Runtime/Cache/Admin/d15b34a76fed2a6c74cb8804719d9721.php 第 257 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/blog/Application/Runtime/Cache/Admin/d15b34a76fed2a6c74cb8804719d9721.php 第 262 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/blog/Application/Runtime/Cache/Admin/d15b34a76fed2a6c74cb8804719d9721.php 第 265 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/blog/Application/Runtime/Cache/Admin/d15b34a76fed2a6c74cb8804719d9721.php 第 318 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/blog/Application/Runtime/Cache/Admin/d15b34a76fed2a6c74cb8804719d9721.php 第 321 行.
+NOTIC: [8] Undefined variable: replyCount /home/u325084755/public_html/blog/Application/Runtime/Cache/Admin/d15b34a76fed2a6c74cb8804719d9721.php 第 376 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006579s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006591s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000089s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000224s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000240s ]
+
+[ 2016-08-20T16:54:12+08:00 ] 106.2.209.173 /index.php/Admin/User/doChangePassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/blog/Application/Admin/Controller/UserController.class.php 第 112 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `user` WHERE ( id= ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `user` WHERE ( id= ) LIMIT 1  
+
+[ 2016-08-20T16:54:48+08:00 ] 106.2.209.173 /index.php/Admin/Image/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000221s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( rstatus=0 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/blog/Application/Runtime/Cache/Admin/c35e948c4bd3179d6bbef81d1068c16b.php 第 256 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/blog/Application/Runtime/Cache/Admin/c35e948c4bd3179d6bbef81d1068c16b.php 第 257 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/blog/Application/Runtime/Cache/Admin/c35e948c4bd3179d6bbef81d1068c16b.php 第 262 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/blog/Application/Runtime/Cache/Admin/c35e948c4bd3179d6bbef81d1068c16b.php 第 265 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/blog/Application/Runtime/Cache/Admin/c35e948c4bd3179d6bbef81d1068c16b.php 第 318 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/blog/Application/Runtime/Cache/Admin/c35e948c4bd3179d6bbef81d1068c16b.php 第 321 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009373s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009393s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000267s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000283s ]
+
+[ 2016-08-20T16:54:58+08:00 ] 106.2.209.173 /index.php/Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000215s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( rstatus=0 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0004s ]
+SQL: SELECT `aid`,`atitle`,`acontent`,`acid`,`cname`,`atime`,`aorder` FROM `article` left join category ON category.cid = article.acid  ORDER BY aorder asc ,atime desc LIMIT 0,20   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/blog/Application/Runtime/Cache/Admin/7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 256 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/blog/Application/Runtime/Cache/Admin/7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 257 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/blog/Application/Runtime/Cache/Admin/7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 262 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/blog/Application/Runtime/Cache/Admin/7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 265 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/blog/Application/Runtime/Cache/Admin/7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 318 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/blog/Application/Runtime/Cache/Admin/7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 321 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007361s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007375s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000091s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000232s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000246s ]
+
+[ 2016-08-20T16:55:00+08:00 ] 106.2.209.173 /index.php/Admin/Article/edit.html?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000214s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( rstatus=0 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `article` WHERE ( aid=1 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/blog/Application/Runtime/Cache/Admin/761055de2f430bef08441163fbb8bda7.php 第 256 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/blog/Application/Runtime/Cache/Admin/761055de2f430bef08441163fbb8bda7.php 第 257 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/blog/Application/Runtime/Cache/Admin/761055de2f430bef08441163fbb8bda7.php 第 262 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/blog/Application/Runtime/Cache/Admin/761055de2f430bef08441163fbb8bda7.php 第 265 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/blog/Application/Runtime/Cache/Admin/761055de2f430bef08441163fbb8bda7.php 第 318 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/blog/Application/Runtime/Cache/Admin/761055de2f430bef08441163fbb8bda7.php 第 321 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007069s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007081s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000238s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000252s ]
+
+[ 2016-08-20T16:57:06+08:00 ] 106.2.209.173 /index.php/Admin/Article/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000216s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( rstatus=0 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/blog/Application/Runtime/Cache/Admin/e16cf278f1c326e72baf6415dbd5ab87.php 第 256 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/blog/Application/Runtime/Cache/Admin/e16cf278f1c326e72baf6415dbd5ab87.php 第 257 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/blog/Application/Runtime/Cache/Admin/e16cf278f1c326e72baf6415dbd5ab87.php 第 262 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/blog/Application/Runtime/Cache/Admin/e16cf278f1c326e72baf6415dbd5ab87.php 第 265 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/blog/Application/Runtime/Cache/Admin/e16cf278f1c326e72baf6415dbd5ab87.php 第 318 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/blog/Application/Runtime/Cache/Admin/e16cf278f1c326e72baf6415dbd5ab87.php 第 321 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/blog/Application/Runtime/Cache/Admin/e16cf278f1c326e72baf6415dbd5ab87.php 第 463 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007206s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007220s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000246s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000260s ]
+
+[ 2016-08-20T16:58:36+08:00 ] 106.2.209.173 /index.php/Admin/Article/doAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000234s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( rstatus=0 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate /home/u325084755/public_html/blog/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /home/u325084755/public_html/blog/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `article` (`atitle`,`acid`,`aorder`,`acontent`,`auid`,`atime`) VALUES ('垃圾回收机制','1','1','&lt;h2 class=&quot;title&quot; style=&quot;font-size:1.5rem;font-weight:500;color:#793862;font-family:&amp;quot;background-color:#F2F2F2;&quot;&gt;
+	引用计数基本知识
+&lt;/h2&gt;
+&lt;p class=&quot;para&quot; style=&quot;color:#333333;font-family:&amp;quot;font-size:16px;background-color:#F2F2F2;&quot;&gt;
+	每个php变量存在一个叫&quot;zval&quot;的变量容器中。一个zval变量容器，除了包含变量的类型和值，还包括两个字节的额外信息。第一个是&quot;is_ref&quot;，是个bool值，用来标识这个变量是否是属于引用集合(reference set)。通过这个字节，php引擎才能把普通变量和引用变量区分开来，由于php允许用户通过使用&amp;amp;来使用自定义引用，zval变量容器中还有一个内部引用计数机制，来优化内存使用。第二个额外字节是&quot;refcount&quot;，用以表示指向这个zval变量容器的变量(也称符号即symbol)个数。所有的符号存在一个符号表中，其中每个符号都有作用域(scope)，那些主脚本(比如：通过浏览器请求的的脚本)和每个函数或者方法也都有作用域。
+&lt;/p&gt;
+&lt;p class=&quot;para&quot; style=&quot;color:#333333;font-family:&amp;quot;font-size:16px;background-color:#F2F2F2;&quot;&gt;
+	当一个变量被赋常量值时，就会生成一个zval变量容器，如下例这样：
+&lt;/p&gt;
+&lt;div class=&quot;example&quot; id=&quot;example-396&quot; style=&quot;margin:1.5rem 0px;color:#333333;font-family:&amp;quot;font-size:16px;background-color:#F2F2F2;&quot;&gt;
+	&lt;p&gt;
+		&lt;span&gt;Example #1 生成一个新的zval容器&lt;/span&gt;
+	&lt;/p&gt;
+	&lt;div class=&quot;example-contents&quot;&gt;
+		&lt;div class=&quot;phpcode&quot; style=&quot;padding:0.75rem;background-color:#FFFFFF;&quot;&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;&amp;lt;?php
+$a = &quot;new string&quot;;
+?&amp;gt;&lt;/pre&gt;
+&lt;br /&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;p class=&quot;para&quot; style=&quot;color:#333333;font-family:&amp;quot;font-size:16px;background-color:#F2F2F2;&quot;&gt;
+	在上例中，新的变量&lt;em&gt;a&lt;/em&gt;，是在当前作用域中生成的。并且生成了类型为&amp;nbsp;&lt;span class=&quot;type&quot;&gt;&lt;a href=&quot;http://php.net/manual/zh/language.types.string.php&quot; class=&quot;type string&quot;&gt;string&lt;/a&gt;&lt;/span&gt;&amp;nbsp;和值为&lt;em&gt;new string&lt;/em&gt;的变量容器。在额外的两个字节信息中，&quot;is_ref&quot;被默认设置为&amp;nbsp;&lt;span&gt;FALSE&lt;/span&gt;，因为没有任何自定义的引用生成。&quot;refcount&quot; 被设定为&amp;nbsp;&lt;em&gt;1&lt;/em&gt;，因为这里只有一个变量使用这个变量容器. 注意到当&quot;refcount&quot;的值是&lt;em&gt;1&lt;/em&gt;时，&quot;is_ref&quot;的值总是&lt;span&gt;FALSE&lt;/span&gt;. 如果你已经安装了&lt;a href=&quot;http://xdebug.org/&quot; class=&quot;link external&quot;&gt;»&amp;nbsp;Xdebug&lt;/a&gt;，你能通过调用函数&amp;nbsp;&lt;span class=&quot;function&quot;&gt;&lt;span&gt;xdebug_debug_zval()&lt;/span&gt;&lt;/span&gt;显示&quot;refcount&quot;和&quot;is_ref&quot;的值。
+&lt;/p&gt;
+&lt;div class=&quot;example&quot; id=&quot;example-397&quot; style=&quot;margin:1.5rem 0px;color:#333333;font-family:&amp;quot;font-size:16px;background-color:#F2F2F2;&quot;&gt;
+	&lt;p&gt;
+		&lt;span&gt;Example #2 显示zval信息&lt;/span&gt;
+	&lt;/p&gt;
+	&lt;div class=&quot;example-contents&quot;&gt;
+		&lt;div class=&quot;phpcode&quot; style=&quot;padding:0.75rem;background-color:#FFFFFF;&quot;&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;&amp;lt;?php
+xdebug_debug_zval(\'a\');
+?&amp;gt;&lt;/pre&gt;
+&lt;br /&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;example-contents&quot;&gt;
+		&lt;p&gt;
+			以上例程会输出：
+		&lt;/p&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;example-contents screen&quot; style=&quot;padding:0.75rem;background-color:#FFFFFF;&quot;&gt;
+		&lt;div class=&quot;cdata&quot;&gt;
+&lt;pre&gt;a: (refcount=1, is_ref=0)=\'new string\'
+&lt;/pre&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;p class=&quot;para&quot; style=&quot;color:#333333;font-family:&amp;quot;font-size:16px;background-color:#F2F2F2;&quot;&gt;
+	把一个变量赋值给另一变量将增加引用次数(refcount).
+&lt;/p&gt;
+&lt;div class=&quot;example&quot; id=&quot;example-398&quot; style=&quot;margin:1.5rem 0px;color:#333333;font-family:&amp;quot;font-size:16px;background-color:#F2F2F2;&quot;&gt;
+	&lt;p&gt;
+		&lt;span&gt;Example #3 增加一个zval的引用计数&lt;/span&gt;
+	&lt;/p&gt;
+	&lt;div class=&quot;example-contents&quot;&gt;
+		&lt;div class=&quot;phpcode&quot; style=&quot;padding:0.75rem;background-color:#FFFFFF;&quot;&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;&amp;lt;?php
+$a = &quot;new string&quot;;
+$b = $a;
+xdebug_debug_zval( \'a\' );
+?&amp;gt;&lt;/pre&gt;
+&lt;br /&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;example-contents&quot;&gt;
+		&lt;p&gt;
+			以上例程会输出：
+		&lt;/p&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;example-contents screen&quot; style=&quot;padding:0.75rem;background-color:#FFFFFF;&quot;&gt;
+		&lt;div class=&quot;cdata&quot;&gt;
+&lt;pre&gt;a: (refcount=2, is_ref=0)=\'new string\'
+&lt;/pre&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;p class=&quot;para&quot; style=&quot;color:#333333;font-family:&amp;quot;font-size:16px;background-color:#F2F2F2;&quot;&gt;
+	这时，引用次数是&lt;em&gt;2&lt;/em&gt;，因为同一个变量容器被变量&amp;nbsp;a&amp;nbsp;和变量&amp;nbsp;b关联.当没必要时，php不会去复制已生成的变量容器。变量容器在”refcount“变成0时就被销毁. 当任何关联到某个变量容器的变量离开它的作用域(比如：函数执行结束)，或者对变量调用了函数&amp;nbsp;&lt;span class=&quot;function&quot;&gt;&lt;a href=&quot;http://php.net/manual/zh/function.unset.php&quot; class=&quot;function&quot;&gt;unset()&lt;/a&gt;&lt;/span&gt;时，”refcount“就会减1，下面的例子就能说明:
+&lt;/p&gt;
+&lt;div class=&quot;example&quot; id=&quot;example-399&quot; style=&quot;margin:1.5rem 0px;color:#333333;font-family:&amp;quot;font-size:16px;background-color:#F2F2F2;&quot;&gt;
+	&lt;p&gt;
+		&lt;span&gt;Example #4 减少引用计数&lt;/span&gt;
+	&lt;/p&gt;
+	&lt;div class=&quot;example-contents&quot;&gt;
+		&lt;div class=&quot;phpcode&quot; style=&quot;padding:0.75rem;background-color:#FFFFFF;&quot;&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;&amp;lt;?php
+$a = &quot;new string&quot;;
+$c = $b = $a;
+xdebug_debug_zval( \'a\' );
+unset( $b, $c );
+xdebug_debug_zval( \'a\' );
+?&amp;gt;&lt;/pre&gt;
+&lt;br /&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;example-contents&quot;&gt;
+		&lt;p&gt;
+			以上例程会输出：
+		&lt;/p&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;example-contents screen&quot; style=&quot;padding:0.75rem;background-color:#FFFFFF;&quot;&gt;
+		&lt;div class=&quot;cdata&quot;&gt;
+&lt;pre&gt;a: (refcount=3, is_ref=0)=\'new string\'
+a: (refcount=1, is_ref=0)=\'new string\'
+&lt;/pre&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;p class=&quot;para&quot; style=&quot;color:#333333;font-family:&amp;quot;font-size:16px;background-color:#F2F2F2;&quot;&gt;
+	如果我们现在执行&amp;nbsp;&lt;em&gt;unset($a);&lt;/em&gt;，包含类型和值的这个变量容器就会从内存中删除。
+&lt;/p&gt;
+&lt;div class=&quot;sect2&quot; id=&quot;features.gc.compound-types&quot; style=&quot;color:#333333;font-family:&amp;quot;font-size:16px;background-color:#F2F2F2;&quot;&gt;
+	&lt;h3 class=&quot;title&quot; style=&quot;font-size:1.25rem;font-weight:500;color:#793862;&quot;&gt;
+		复合类型(Compound Types)
+	&lt;/h3&gt;
+	&lt;p class=&quot;para&quot;&gt;
+		当考虑像&amp;nbsp;&lt;span class=&quot;type&quot;&gt;&lt;a href=&quot;http://php.net/manual/zh/language.types.array.php&quot; class=&quot;type array&quot;&gt;array&lt;/a&gt;&lt;/span&gt;和&lt;span class=&quot;type&quot;&gt;&lt;a href=&quot;http://php.net/manual/zh/language.types.object.php&quot; class=&quot;type object&quot;&gt;object&lt;/a&gt;&lt;/span&gt;这样的复合类型时，事情就稍微有点复杂. 与&amp;nbsp;&lt;span class=&quot;type&quot;&gt;标量(scalar)&lt;/span&gt;类型的值不同，&lt;span class=&quot;type&quot;&gt;&lt;a href=&quot;http://php.net/manual/zh/language.types.array.php&quot; class=&quot;type array&quot;&gt;array&lt;/a&gt;&lt;/span&gt;和&amp;nbsp;&lt;span class=&quot;type&quot;&gt;&lt;a href=&quot;http://php.net/manual/zh/language.types.object.php&quot; class=&quot;type object&quot;&gt;object&lt;/a&gt;&lt;/span&gt;类型的变量把它们的成员或属性存在自己的符号表中。这意味着下面的例子将生成三个zval变量容器。
+	&lt;/p&gt;
+	&lt;div class=&quot;example&quot; id=&quot;example-400&quot; style=&quot;margin:1.5rem 0px;&quot;&gt;
+		&lt;p&gt;
+			&lt;span&gt;Example #5 Creating a&amp;nbsp;&lt;span class=&quot;type&quot;&gt;&lt;a href=&quot;http://php.net/manual/zh/language.types.array.php&quot; class=&quot;type array&quot;&gt;array&lt;/a&gt;&lt;/span&gt;&amp;nbsp;zval&lt;/span&gt;
+		&lt;/p&gt;
+		&lt;div class=&quot;example-contents&quot;&gt;
+			&lt;div class=&quot;phpcode&quot; style=&quot;padding:0.75rem;background-color:#FFFFFF;&quot;&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;&amp;lt;?php
+$a = array( \'meaning\' =&amp;gt; \'life\', \'number\' =&amp;gt; 42 );
+xdebug_debug_zval( \'a\' );
+?&amp;gt;&lt;/pre&gt;
+&lt;br /&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;example-contents&quot;&gt;
+			&lt;p&gt;
+				以上例程的输出类似于：
+			&lt;/p&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;example-contents screen&quot; style=&quot;padding:0.75rem;background-color:#FFFFFF;&quot;&gt;
+			&lt;div class=&quot;cdata&quot;&gt;
+&lt;pre&gt;a: (refcount=1, is_ref=0)=array (
+   \'meaning\' =&amp;gt; (refcount=1, is_ref=0)=\'life\',
+   \'number\' =&amp;gt; (refcount=1, is_ref=0)=42
+)
+&lt;/pre&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;example-contents&quot;&gt;
+			&lt;p&gt;
+				图示:
+			&lt;/p&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;mediaobject&quot;&gt;
+			&lt;div class=&quot;imageobject&quot;&gt;
+				&lt;img src=&quot;http://php.net/manual/zh/images/12f37b1c6963c1c5c18f30495416a197-simple-array.png&quot; alt=&quot;一个简单数组的zval&quot; width=&quot;593&quot; height=&quot;143&quot; /&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;p class=&quot;para&quot;&gt;
+		这三个zval变量容器是:&amp;nbsp;a，meaning和&amp;nbsp;number。增加和减少”refcount”的规则和上面提到的一样. 下面, 我们在数组中再添加一个元素,并且把它的值设为数组中已存在元素的值:
+	&lt;/p&gt;
+	&lt;div class=&quot;example&quot; id=&quot;example-401&quot; style=&quot;margin:1.5rem 0px;&quot;&gt;
+		&lt;p&gt;
+			&lt;span&gt;Example #6 添加一个已经存在的元素到数组中&lt;/span&gt;
+		&lt;/p&gt;
+		&lt;div class=&quot;example-contents&quot;&gt;
+			&lt;div class=&quot;phpcode&quot; style=&quot;padding:0.75rem;background-color:#FFFFFF;&quot;&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;&amp;lt;?php
+$a = array( \'meaning\' =&amp;gt; \'life\', \'number\' =&amp;gt; 42 );
+$a[\'life\'] = $a[\'meaning\'];
+xdebug_debug_zval( \'a\' );
+?&amp;gt;&lt;/pre&gt;
+&lt;br /&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;example-contents&quot;&gt;
+			&lt;p&gt;
+				以上例程的输出类似于：
+			&lt;/p&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;example-contents screen&quot; style=&quot;padding:0.75rem;background-color:#FFFFFF;&quot;&gt;
+			&lt;div class=&quot;cdata&quot;&gt;
+&lt;pre&gt;a: (refcount=1, is_ref=0)=array (
+   \'meaning\' =&amp;gt; (refcount=2, is_ref=0)=\'life\',
+   \'number\' =&amp;gt; (refcount=1, is_ref=0)=42,
+   \'life\' =&amp;gt; (refcount=2, is_ref=0)=\'life\'
+)
+&lt;/pre&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;example-contents&quot;&gt;
+			&lt;p&gt;
+				图示：
+			&lt;/p&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;mediaobject&quot;&gt;
+			&lt;div class=&quot;imageobject&quot;&gt;
+				&lt;img src=&quot;http://php.net/manual/zh/images/12f37b1c6963c1c5c18f30495416a197-simple-array2.png&quot; alt=&quot;带有引用的简单数组的zval&quot; width=&quot;593&quot; height=&quot;143&quot; /&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;p class=&quot;para&quot;&gt;
+		从以上的xdebug输出信息，我们看到原有的数组元素和新添加的数组元素关联到同一个&quot;refcount&quot;&lt;em&gt;2&lt;/em&gt;的zval变量容器. 尽管 Xdebug的输出显示两个值为&lt;em&gt;\'life\'&lt;/em&gt;的 zval 变量容器，其实是同一个。 函数&lt;span class=&quot;function&quot;&gt;&lt;span&gt;xdebug_debug_zval()&lt;/span&gt;&lt;/span&gt;不显示这个信息，但是你能通过显示内存指针信息来看到。
+	&lt;/p&gt;
+	&lt;p class=&quot;para&quot;&gt;
+		删除数组中的一个元素，就是类似于从作用域中删除一个变量. 删除后,数组中的这个元素所在的容器的“refcount”值减少，同样，当“refcount”为0时，这个变量容器就从内存中被删除，下面又一个例子可以说明：
+	&lt;/p&gt;
+	&lt;div class=&quot;example&quot; id=&quot;example-402&quot; style=&quot;margin:1.5rem 0px;&quot;&gt;
+		&lt;p&gt;
+			&lt;span&gt;Example #7 从数组中删除一个元素&lt;/span&gt;
+		&lt;/p&gt;
+		&lt;div class=&quot;example-contents&quot;&gt;
+			&lt;div class=&quot;phpcode&quot; style=&quot;padding:0.75rem;background-color:#FFFFFF;&quot;&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;&amp;lt;?php
+$a = array( \'meaning\' =&amp;gt; \'life\', \'number\' =&amp;gt; 42 );
+$a[\'life\'] = $a[\'meaning\'];
+unset( $a[\'meaning\'], $a[\'number\'] );
+xdebug_debug_zval( \'a\' );
+?&amp;gt;&lt;/pre&gt;
+&lt;br /&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;example-contents&quot;&gt;
+			&lt;p&gt;
+				以上例程的输出类似于：
+			&lt;/p&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;example-contents screen&quot; style=&quot;padding:0.75rem;background-color:#FFFFFF;&quot;&gt;
+			&lt;div class=&quot;cdata&quot;&gt;
+&lt;pre&gt;a: (refcount=1, is_ref=0)=array (
+   \'life\' =&amp;gt; (refcount=1, is_ref=0)=\'life\'
+)
+&lt;/pre&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;p class=&quot;para&quot;&gt;
+		现在，当我们添加一个数组本身作为这个数组的元素时，事情就变得有趣，下个例子将说明这个。例中我们加入了引用操作符，否则php将生成一个复制。
+	&lt;/p&gt;
+	&lt;div class=&quot;example&quot; id=&quot;example-403&quot; style=&quot;margin:1.5rem 0px;&quot;&gt;
+		&lt;p&gt;
+			&lt;span&gt;Example #8 把数组作为一个元素添加到自己&lt;/span&gt;
+		&lt;/p&gt;
+		&lt;div class=&quot;example-contents&quot;&gt;
+			&lt;div class=&quot;phpcode&quot; style=&quot;padding:0.75rem;background-color:#FFFFFF;&quot;&gt;
+&lt;pre class=&quot;prettyprint lang-php&quot;&gt;&amp;lt;?php
+$a = array( \'one\' );
+$a[] =&amp;amp; $a;
+xdebug_debug_zval( \'a\' );
+?&amp;gt;&lt;/pre&gt;
+&lt;br /&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;example-contents&quot;&gt;
+			&lt;p&gt;
+				以上例程的输出类似于：
+			&lt;/p&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;example-contents screen&quot; style=&quot;padding:0.75rem;background-color:#FFFFFF;&quot;&gt;
+			&lt;div class=&quot;cdata&quot;&gt;
+&lt;pre&gt;a: (refcount=2, is_ref=1)=array (
+   0 =&amp;gt; (refcount=1, is_ref=0)=\'one\',
+   1 =&amp;gt; (refcount=2, is_ref=1)=...
+)
+&lt;/pre&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;example-contents&quot;&gt;
+			&lt;p&gt;
+				图示：
+			&lt;/p&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;mediaobject&quot;&gt;
+			&lt;div class=&quot;imageobject&quot;&gt;
+				&lt;img src=&quot;http://php.net/manual/zh/images/12f37b1c6963c1c5c18f30495416a197-loop-array.png&quot; alt=&quot;自引用(curcular reference,自己是自己的一个元素)的数组的zval&quot; width=&quot;533&quot; height=&quot;144&quot; /&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;p class=&quot;para&quot;&gt;
+		能看到数组变量 (a) 同时也是这个数组的第二个元素(1) 指向的变量容器中“refcount”为&amp;nbsp;&lt;em&gt;2&lt;/em&gt;。上面的输出结果中的&quot;...&quot;说明发生了递归操作, 显然在这种情况下意味着&quot;...&quot;指向原始数组。
+	&lt;/p&gt;
+	&lt;p class=&quot;para&quot;&gt;
+		跟刚刚一样，对一个变量调用unset，将删除这个符号，且它指向的变量容器中的引用次数也减1。所以，如果我们在执行完上面的代码后，对变量$a调用unset, 那么变量&amp;nbsp;$a&amp;nbsp;和数组元素 &quot;1&quot; 所指向的变量容器的引用次数减1, 从&quot;2&quot;变成&quot;1&quot;. 下例可以说明:
+	&lt;/p&gt;
+	&lt;div class=&quot;example&quot; id=&quot;example-404&quot; style=&quot;margin:1.5rem 0px;&quot;&gt;
+		&lt;p&gt;
+			&lt;span&gt;Example #9 Unsetting&amp;nbsp;$a&lt;/span&gt;
+		&lt;/p&gt;
+		&lt;div class=&quot;example-contents screen&quot; style=&quot;padding:0.75rem;background-color:#FFFFFF;&quot;&gt;
+			&lt;div class=&quot;cdata&quot;&gt;
+&lt;pre&gt;(refcount=1, is_ref=1)=array (
+   0 =&amp;gt; (refcount=1, is_ref=0)=\'one\',
+   1 =&amp;gt; (refcount=1, is_ref=1)=...
+)
+&lt;/pre&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;example-contents&quot;&gt;
+			&lt;p&gt;
+				图示：
+			&lt;/p&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;mediaobject&quot;&gt;
+			&lt;div class=&quot;imageobject&quot;&gt;
+				&lt;img src=&quot;http://php.net/manual/zh/images/12f37b1c6963c1c5c18f30495416a197-leak-array.png&quot; alt=&quot;Zvals after removal of array with a circular reference demonstrating the memory leak&quot; width=&quot;463&quot; height=&quot;144&quot; /&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot; id=&quot;features.gc.cleanup-problems&quot; style=&quot;color:#333333;font-family:&amp;quot;font-size:16px;background-color:#F2F2F2;&quot;&gt;
+	&lt;h3 class=&quot;title&quot; style=&quot;font-size:1.25rem;font-weight:500;color:#793862;&quot;&gt;
+		清理变量容器的问题(Cleanup Problems)
+	&lt;/h3&gt;
+	&lt;p class=&quot;para&quot;&gt;
+		尽管不再有某个作用域中的任何符号指向这个结构(就是变量容器)，由于数组元素“1”仍然指向数组本身，所以这个容器不能被清除 。因为没有另外的符号指向它，用户没有办法清除这个结构，结果就会导致内存泄漏。庆幸的是，php将在脚本执行结束时清除这个数据结构，但是在php清除之前，将耗费不少内存。如果你要实现分析算法，或者要做其他像一个子元素指向它的父元素这样的事情，这种情况就会经常发生。当然，同样的情况也会发生在对象上，实际上对象更有可能出现这种情况，因为对象总是隐式的被引用。
+	&lt;/p&gt;
+	&lt;p class=&quot;para&quot;&gt;
+		如果上面的情况发生仅仅一两次倒没什么，但是如果出现几千次，甚至几十万次的内存泄漏，这显然是个大问题。这样的问题往往发生在长时间运行的脚本中，比如请求基本上不会结束的守护进程(deamons)或者单元测试中的大的套件(sets)中。后者的例子：在给巨大的eZ(一个知名的PHP Library) 组件库的模板组件做单元测试时，就可能会出现问题。有时测试可能需要耗用2GB的内存，而测试服务器很可能没有这么大的内存。
+	&lt;/p&gt;
+&lt;/div&gt;','0','1471683516') [ RunTime:0.0027s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000019s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000035s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002764s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002781s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000089s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000224s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000235s ]
+
+[ 2016-08-20T16:58:37+08:00 ] 106.2.209.173 /index.php/Admin/Article/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000238s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( rstatus=0 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/blog/Application/Runtime/Cache/Admin/e16cf278f1c326e72baf6415dbd5ab87.php 第 256 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/blog/Application/Runtime/Cache/Admin/e16cf278f1c326e72baf6415dbd5ab87.php 第 257 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/blog/Application/Runtime/Cache/Admin/e16cf278f1c326e72baf6415dbd5ab87.php 第 262 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/blog/Application/Runtime/Cache/Admin/e16cf278f1c326e72baf6415dbd5ab87.php 第 265 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/blog/Application/Runtime/Cache/Admin/e16cf278f1c326e72baf6415dbd5ab87.php 第 318 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/blog/Application/Runtime/Cache/Admin/e16cf278f1c326e72baf6415dbd5ab87.php 第 321 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/blog/Application/Runtime/Cache/Admin/e16cf278f1c326e72baf6415dbd5ab87.php 第 463 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009145s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009158s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000242s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000256s ]
+
+[ 2016-08-20T16:58:42+08:00 ] 106.2.209.173 /index.php/Admin/Article/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000347s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( rstatus=0 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/blog/Application/Runtime/Cache/Admin/e16cf278f1c326e72baf6415dbd5ab87.php 第 256 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/blog/Application/Runtime/Cache/Admin/e16cf278f1c326e72baf6415dbd5ab87.php 第 257 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/blog/Application/Runtime/Cache/Admin/e16cf278f1c326e72baf6415dbd5ab87.php 第 262 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/blog/Application/Runtime/Cache/Admin/e16cf278f1c326e72baf6415dbd5ab87.php 第 265 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/blog/Application/Runtime/Cache/Admin/e16cf278f1c326e72baf6415dbd5ab87.php 第 318 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/blog/Application/Runtime/Cache/Admin/e16cf278f1c326e72baf6415dbd5ab87.php 第 321 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/blog/Application/Runtime/Cache/Admin/e16cf278f1c326e72baf6415dbd5ab87.php 第 463 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007514s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000243s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000257s ]
+
+[ 2016-08-20T16:58:44+08:00 ] 106.2.209.173 /index.php/Admin/Article/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000220s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.0028s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( rstatus=0 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/blog/Application/Runtime/Cache/Admin/e16cf278f1c326e72baf6415dbd5ab87.php 第 256 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/blog/Application/Runtime/Cache/Admin/e16cf278f1c326e72baf6415dbd5ab87.php 第 257 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/blog/Application/Runtime/Cache/Admin/e16cf278f1c326e72baf6415dbd5ab87.php 第 262 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/blog/Application/Runtime/Cache/Admin/e16cf278f1c326e72baf6415dbd5ab87.php 第 265 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/blog/Application/Runtime/Cache/Admin/e16cf278f1c326e72baf6415dbd5ab87.php 第 318 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/blog/Application/Runtime/Cache/Admin/e16cf278f1c326e72baf6415dbd5ab87.php 第 321 行.
+NOTIC: [8] Undefined index: user /home/u325084755/public_html/blog/Application/Runtime/Cache/Admin/e16cf278f1c326e72baf6415dbd5ab87.php 第 463 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007614s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007628s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000242s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000256s ]
+

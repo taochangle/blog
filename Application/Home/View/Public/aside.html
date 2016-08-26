@@ -1,0 +1,23 @@
+        <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+          <div class="sidebar-module sidebar-module-inset">
+            <h4>About</h4>
+            <p>欢迎访问我的博客. <a href="http://www.taoxin.tk">www.taoxin.tk</a></p>
+          </div>
+          <div class="sidebar-module">
+            <h4>Archives</h4>
+            <ol class="list-unstyled">
+            
+            <foreach name="month" item="v">
+              <li><a href="{:U('category','month='.$v['month'])}">{$v.month}月</a></li>
+			</foreach>
+            </ol>
+          </div>
+          <div class="sidebar-module">
+            <h4>Elsewhere</h4>
+            <ol class="list-unstyled">
+            <foreach name="allArticle" item="v">
+              <li><a href="{:U('article','aid='.$v['aid'])}">{$v.atitle}</a></li>
+ 			</foreach>
+            </ol>
+          </div>
+        </div><!-- /.blog-sidebar -->
