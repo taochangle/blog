@@ -1,0 +1,107 @@
+[ 2016-08-26T10:00:57+08:00 ] 172.27.35.1 /blog/index.php/Home/Index/zan?aid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000757s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `category` ORDER BY ctime desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0026s ]
+SQL: SELECT DISTINCT FROM_UNIXTIME(atime,'%m') as month,`aid` FROM `article` ORDER BY atime desc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `article` ORDER BY atime desc LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zan` [ RunTime:0.0024s ]
+SQL: INSERT INTO `zan` (`zip`,`zaid`) VALUES ('172.27.35.1','2') [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000405s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000658s ]
+
+[ 2016-08-26T22:02:30+08:00 ] ::1 /blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003805s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004164s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004396s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `category` ORDER BY ctime desc  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0026s ]
+SQL: SELECT DISTINCT FROM_UNIXTIME(atime,'%m') as month,`aid` FROM `article` ORDER BY atime desc  [ RunTime:0.0041s ]
+SQL: SELECT * FROM `article` ORDER BY atime desc LIMIT 0,10   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `article` ORDER BY atime desc LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `name`,`aid`,`atitle`,`cname`,`cid`,`acontent`,count(zid) as zancount,`atime`,`acid` FROM `article` left join zan on aid = zaid left join user on id = auid left join category  on cid =acid  GROUP BY aid ORDER BY atime desc LIMIT 0,5   [ RunTime:0.0082s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000283s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000503s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077130s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077420s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002487s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002677s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004249s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004446s ]
+
+[ 2016-08-26T22:02:50+08:00 ] ::1 /blog/index.php/Home/Index/article/aid/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:2.7612s ]
+SQL: SELECT * FROM `category` ORDER BY ctime desc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0041s ]
+SQL: SELECT DISTINCT FROM_UNIXTIME(atime,'%m') as month,`aid` FROM `article` ORDER BY atime desc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `article` ORDER BY atime desc LIMIT 0,10   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0006s ]
+SQL: SELECT `aid`,`atitle`,`acontent`,`acid`,`cname`,`atime`,`aorder`,`name` FROM `article` left join category ON category.cid = article.acid left join user ON user.id = article.auid  WHERE ( aid=2 ) LIMIT 1   [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.0044s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( rstatus=1 and raid=2 ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `reply` WHERE ( rstatus=1 and raid=2 ) ORDER BY rtime desc LIMIT 0,5   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `zan` [ RunTime:0.0039s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zan` inner join article on article.aid = zan.zaid  WHERE ( aid=2 ) LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000587s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000935s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:4.755605s ]
+INFO: [ view_parse ] --END-- [ RunTime:4.756039s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000399s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000740s ]
+
+[ 2016-08-26T22:02:50+08:00 ] ::1 /blog/index.php/Home/Index/category/cid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000123s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001260s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `category` ORDER BY ctime desc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0016s ]
+SQL: SELECT DISTINCT FROM_UNIXTIME(atime,'%m') as month,`aid` FROM `article` ORDER BY atime desc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `article` ORDER BY atime desc LIMIT 0,10   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: month /var/www/html/blog/Application/Home/Controller/IndexController.class.php 第 83 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `article` WHERE ( acid=1 ) ORDER BY atime desc LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `name`,`aid`,`atitle`,`cname`,`cid`,`acontent`,count(zid) as zancount,`atime`,`acid` FROM `article` left join zan on aid = zaid left join user on id = auid left join category  on cid =acid  WHERE ( acid=1 ) GROUP BY aid ORDER BY atime desc LIMIT 0,5   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000281s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000479s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027846s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028045s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000174s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000168s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000297s ]
+
