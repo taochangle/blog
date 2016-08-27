@@ -1,0 +1,9 @@
+#添加一些排除项
+
+Application/Runtime/
+.settings/
+*.buildpath
+*.project
+.svn/
+
+
